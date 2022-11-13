@@ -13,4 +13,4 @@ En este Máster aprenderemos todo lo necesario para dominar:
 - **Flexbox**
 - **CSS Grid Layout**
 - **Bootstrap**
->Las tecnologías de front-end orientadas al diseño web más importantes con más demanda laboral y más proyección de futuro.
+>Las tecnologías de **front-end** orientadas al **diseño web** más importantes con más demanda laboral y más proyección de futuro.
