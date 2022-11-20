@@ -87,3 +87,11 @@ input[type="submit"] {
     cursor: pointer;
 
 }
+
+/*Selector de hijo*/
+
+#menu > li > a{
+    font-size: 18px;
+    color:red;
+    text-decoration: none;
+}
