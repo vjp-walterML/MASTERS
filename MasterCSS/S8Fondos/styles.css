@@ -1,0 +1,26 @@
+body {
+
+    background-color: #cccc;
+    /*
+    background-image: url(img/3.jpg);
+    background-repeat:repeat;
+    background-attachment: fixed; 
+    background-position:left bottom;
+    */
+}
+
+#caja {
+    border: 5px solid black;
+    padding: 10px;
+    background-color: rgb(58, 132, 216);
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 50px;
+}
+
+h2 {
+    /*background-image: url(img/1.jpg);*/
+    color:black;
+    border: 5px white;
+}
