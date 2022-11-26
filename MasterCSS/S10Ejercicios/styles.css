@@ -90,6 +90,7 @@ header {
      float: left;
      width: 40%;
      height: 250px;
+     line-height: 250px;
      background-color: #444;
      border: 5px solid #24ACF2;
      color: white;
