@@ -1,0 +1,28 @@
+@media (max-width:1250px){
+    .wrap{
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .card{
+        width: 17%;
+        margin: 1.45%;
+    }
+
+    #articles{
+        width: 65%;
+    }
+    #lateral {
+        width: 29%;
+    }
+    #footer .wrap > div{
+        width: 31%;
+        margin: 1%;
+    }
+    #footer img{
+        width: 90%;
+    }
+    #footer #browsers img{
+        width: 14%;
+    }
+}
