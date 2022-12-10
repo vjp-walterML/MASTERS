@@ -25,4 +25,12 @@
     #footer #browsers img{
         width: 14%;
     }
+    #lateral input[type="button"]{
+        width: 11%;
+    }
+
+    #login input[type="submit"], #login input[type="button"], #login input[type="reset"] {
+        width: 37%;
+        margin-left: 7%;
+    }
 }
