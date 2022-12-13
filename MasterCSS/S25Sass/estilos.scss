@@ -1,0 +1,17 @@
+$fuente-tipica: sans-serif, Helvetica, Arial;
+$color-fondo: #ccc;
+$color-letra: red;
+$color-secundario: rgb(163, 95, 95);
+
+body {
+    background-color: $color-fondo;
+}
+
+h1 {
+    font-family: $fuente-tipica;
+    color: $color-letra;
+}
+
+p {
+    color: $color-secundario;
+}
