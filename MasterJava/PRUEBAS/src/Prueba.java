@@ -1,5 +1,8 @@
+import javax.swing.*;
+
 public class Prueba {
     public static void main(String[] args) {
-        var num = 1;
+        int num = Integer.parseInt(JOptionPane.showInputDialog("Por favor, introduzca un numero: "));
+        JOptionPane.showMessageDialog(null,String.valueOf(num));
     }
 }
