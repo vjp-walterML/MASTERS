@@ -30,7 +30,10 @@
 .logo {
     flex-grow: 1;
     flex-basis: 65%;
-
+    font-family: Helvetica;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 35px;
     padding-left: 20px;
     color: black;
     text-shadow: 1px 1px 0px #ccc;
@@ -45,14 +48,14 @@
     font-size: 35px;
 }
 
-#menu{
+#menu {
     flex-grow: 1;
     flex-basis: 30%;
     height: 100%;
     padding-right: 8px;
 }
 
-#menu > ul{
+#menu>ul {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -61,13 +64,170 @@
     list-style: none;
 }
 
-#menu a{
+#menu a {
     color: #444;
     padding: 15px;
     transition: all 300ms;
 }
 
-#menu a:hover{
+#menu a:hover {
     background-color: #ccc;
     color: white;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#projects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex-basis: 80%;
+    margin-right: 20px;
+}
+
+.project {
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    flex-basis: 250px;
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project-info {
+    padding: 10px;
+}
+
+.project-info a {
+    font-size: 16px;
+    color: black;
+    transition: all 300ms;
+}
+
+.project-info a:hover {
+    color: green;
+}
+
+.project-info p {
+    font-size: 16px;
+    color: gray;
+}
+
+#aside {
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 15%;
+    margin-right: 30px;
+    padding: 15px;
+}
+
+#aside h2 {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 100;
+    color: #444;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(225, 225, 226, 0.8);
+    text-align: center;
+}
+
+#aside ul {
+    list-style: none;
+}
+
+#aside ul li {
+    padding-bottom: 20px;
+}
+
+#aside a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    background-color: #eee;
+    color: #444;
+    transition: all 300ms;
+}
+
+#aside a:hover {
+    background-color: #444;
+    color: #eee;
+}
+
+#footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 120px;
+    border-top: 1px solid rgba(225, 225, 226, 0.8);
+}
+
+#footer .logo {
+    opacity: 0.5;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+#footer .info {
+    flex-grow: 1;
+    text-align: right;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+@media (max-width:621px) {
+    #header {
+        text-align: center;
+    }
+
+    #header h1 {
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }
+
+    #menu>ul {
+        justify-content: space-evenly;
+    }
+
+    #footer .info {
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    #footer .logo {
+        text-align: center;
+    }
+
+    #content {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column wrap;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #aside {
+        margin-right: 0px;
+    }
+
+    #projects {
+        margin: 10px;
+    }
+
+    .project {
+        margin-bottom: 25px;
+        margin-right: 0px;
+    }
+
+
 }
