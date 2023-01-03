@@ -17,20 +17,21 @@
         <button class="btn btn-success">BOTÓN</button>
     </div>-->
 
-    <div class="container border">
+    <!-- <div class="container border"> ESTE ES UN CONTAINER NORMAL-->
+    <div class="container-fluid border"> <!-- ESTE ES UN CONTAINER QUE OCUPA EL W-100 PARA SE MAS RESPONSIVE -->
         <div class="row">
 
             <header id="header" class="col-12 bg-primary text-white p-4">
                 <h1>Aprendiendo Bootstrap</h1>
             </header>
 
-            <nav id="menu" class="col-12 bg-secondary text-white">
+            <nav id="menu" class="col-12 bg-secondary text-white d-sm-none">
                 <ul class="row w-50">
-                    <li class="col">Inicio</li>
-                    <li class="col">Pagina 1</li>
-                    <li class="col">Pagina 2</li>
-                    <li class="col">Pagina 3</li>
-                    <li class="col">Contacto</li>
+                    <li class="col col-xs-12 col-sm-12 col-md">Inicio</li>
+                    <li class="col col-xs-12 col-sm-12 col-md">Pagina 1</li>
+                    <li class="col col-xs-12 col-sm-12 col-md">Pagina 2</li>
+                    <li class="col col-xs-12 col-sm-12 col-md">Pagina 3</li>
+                    <li class="col col-xs-12 col-sm-12 col-md">Contacto</li>
                 </ul>
             </nav>
             <section id="content" class="col-12">
@@ -42,6 +43,11 @@
                         <hr>
 
                         <div class="items">
+                            <div class="row">
+                                <div class="item col col-md-12 col-sm-12 bg-dark text-white">Producto</div>
+                                <div class="item col col-md-6 col-sm-6 bg-warning text-white">Producto</div>
+                                <div class="item col col-md-6 col-sm-6 bg-primary text-white">Producto</div>
+                            </div>
                             <div class="row">
                                 <div class="item col m-2 bg-dark text-white">Producto</div>
                                 <div class="item col m-2 bg-warning text-white">Producto</div>
@@ -58,15 +64,21 @@
                                 <div class="item col-3 bg-warning text-white">Producto</div>
                                 <div class="item col-3 bg-dark text-white">Producto</div>
                             </div>
+                            <div class="row">
+                                <div class="item col-3 bg-dark text-white">Producto</div>
+                                <div class="item col-3 bg-warning text-white">Producto</div>
+                                <div class="item col-3 bg-primary text-white">Producto</div>
+                                <div class="item col-2 bg-dark text-white offset-1">Producto</div>
+                            </div>
                         </div>
 
                     </section>
                     <aside class="col-3 border">
                         <h2>Barra lateral</h2>
                         <div class="row lateral bg-light align-items-center ">
-                            <div class="col-4 bg-primary align-self-start">Elemento 1</div>
-                            <div class="col-4 bg-success align-self-center">Elemento 2</div>
-                            <div class="col-4 bg-warning align-self-end">Elemento 3</div>
+                            <div class="col-4 bg-primary align-self-start order-3">Elemento 1</div>
+                            <div class="col-4 bg-success align-self-center order-2">Elemento 2</div>
+                            <div class="col-4 bg-warning align-self-end order-1">Elemento 3</div>
                         </div>
                     </aside>
 
