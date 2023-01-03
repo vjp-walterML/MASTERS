@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Walter">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>Aprendiendo Bootstrap</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <header class="col-md-12 mt-2">
+
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Componentes</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                            <li class="nav-item">
+                                <form class="form-inline my-2 my-lg-0">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                </form>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Walter Martín Lopes
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Sobre mí</a>
+                                    <a class="dropdown-item" href="#">Proyectos</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Contacto</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-8">
+                <!-- miga de pan -->
+                <h2>Esto es una miga de pan</h2>
+                <nav>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="#">Inicio</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="#">Desarrollo Web</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="#">Componentes Bootstrap</a>
+                        </li>
+                    </ol>
+                </nav>
+                <hr>
+                <!-- alerta -->
+                <h2>Esto es una alerta</h2>
+                <div class="alert alert-danger alert-dismissible fade show">
+                    <strong>ERROR:</strong> Te has equivocado.
+                    <button type="button" class="close" data-dismiss="alert">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <hr>
+                <!-- Badge -->
+                <h2>Esto es una Badge (Recuadro para resaltar algo)</h2>
+
+                <h3 class="mt-4">
+                    <span class="badge badge-success">New</span>
+                    Componentes de Bootstrap
+                </h3>
+
+                <p>
+                    <a href="#" class="badge badge-warning badge-pill">
+                        Nuevo
+                    </a>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui beatae quisquam quasi officia,
+                    voluptatibus quas accusamus unde quo veritatis ullam et id nam.
+                </p>
+                <hr>
+            </div>
+        </div>
+        <div class="row col-md-8">
+            <!-- Tarjetas -->
+            <div class="card col">
+                <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Imagen">
+                <div class="card-body">
+                    <h3 class="card-title">Tarjeta 1</h3>
+                    <p class="card-text">Hola entra a este artículo y aprenderás Bootstrap</p>
+                    <a href="#" class="btn btn-dark">Entrar</a>
+                </div>
+            </div>
+            <div class="card col">
+                <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Imagen">
+                <div class="card-body">
+                    <h3 class="card-title">Tarjeta 2</h3>
+                    <p class="card-text">Hola entra a este artículo y aprenderás Bootstrap</p>
+                    <a href="#" class="btn btn-info">Entrar</a>
+                </div>
+            </div>
+            <div class="card col">
+                <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Imagen">
+                <div class="card-body">
+                    <h3 class="card-title">Tarjeta 3</h3>
+                    <p class="card-text">Hola entra a este artículo y aprenderás Bootstrap</p>
+                    <a href="#" class="btn btn-warning">Entrar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------ESTO CARGA BOOTSTRAP------------------------------ -->
+    <script type="text/javascript" src="jquery/jquery-3.6.3.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
