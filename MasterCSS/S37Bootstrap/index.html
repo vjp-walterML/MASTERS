@@ -1,14 +1,85 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Walter">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Aprendiendo Bootstrap</title>
 </head>
+
 <body>
-    <h1>Aprendiendo Bootstrap</h1>
-    <h2>Bienvenido a las clases de este framework para CSS</h2>
+    <!-- <div class="mi-web w-75 m-auto border border-danger p-4">
+        <h1>Aprendiendo Bootstrap</h1>
+        <h2>Bienvenido a las clases de este framework para CSS</h2>
+        <button class="btn btn-success">BOTÓN</button>
+    </div>-->
+
+    <div class="container border">
+        <div class="row">
+
+            <header id="header" class="col-12 bg-primary text-white p-4">
+                <h1>Aprendiendo Bootstrap</h1>
+            </header>
+
+            <nav id="menu" class="col-12 bg-secondary text-white">
+                <ul class="row w-50">
+                    <li class="col">Inicio</li>
+                    <li class="col">Pagina 1</li>
+                    <li class="col">Pagina 2</li>
+                    <li class="col">Pagina 3</li>
+                    <li class="col">Contacto</li>
+                </ul>
+            </nav>
+            <section id="content" class="col-12">
+                <div class="row">
+                    <section id="products" class="col-9 border">
+
+                        <h2>Productos</h2>
+
+                        <hr>
+
+                        <div class="items">
+                            <div class="row">
+                                <div class="item col m-2 bg-dark text-white">Producto</div>
+                                <div class="item col m-2 bg-warning text-white">Producto</div>
+                                <div class="item col m-2 bg-primary text-white">Producto</div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="item col m-2 bg-dark text-white">Producto</div>
+                                <div class="item col m-2 bg-warning text-white">Producto</div>
+                                <div class="item col m-2 bg-primary text-white">Producto</div>
+                                <div class="item col-5 m-2 bg-success text-white">Producto</div>
+                            </div>
+                            <div class="row mt-1 justify-content-between">
+                                <div class="item col-3 bg-dark text-white">Producto</div>
+                                <div class="item col-3 bg-warning text-white">Producto</div>
+                                <div class="item col-3 bg-dark text-white">Producto</div>
+                            </div>
+                        </div>
+
+                    </section>
+                    <aside class="col-3 border">
+                        <h2>Barra lateral</h2>
+                        <div class="row lateral bg-light align-items-center ">
+                            <div class="col-4 bg-primary align-self-start">Elemento 1</div>
+                            <div class="col-4 bg-success align-self-center">Elemento 2</div>
+                            <div class="col-4 bg-warning align-self-end">Elemento 3</div>
+                        </div>
+                    </aside>
+
+                    <footer class="col-lg-12 bg-info">
+                        Master en CSS Walter Martín Lopes&copy;
+                    </footer>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- ------------------------------------------------------------ -->
+    <script type="text/javascript" src="jquery/jquery-3.6.3.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>
