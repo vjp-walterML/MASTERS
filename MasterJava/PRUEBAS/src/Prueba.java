@@ -17,24 +17,8 @@ public class Prueba {
          int numero= Integer.parseInt(JOptionPane.showInputDialog("HOLA INGRESA UN NUMERO:"));*/
 
         ArrayList<Character> lRuta = new ArrayList<>();
-        char[] ruta = {'S', 'S', 'O', 'S'};
+        //char[] ruta = {'S', 'S', 'O', 'S'};
+        System.out.println(lRuta.get(0));
 
-        // RELLENO LRUTA
-        for (int i = 0; i < ruta.length; i++) {
-            lRuta.add(ruta[i]);
-        }
-         //PRUEBA
-        for (int i = 0; i < lRuta.size(); i++) {
-            mostrarLruta(lRuta);
-            System.out.println("----------------------------");
-            lRuta.remove(0);
-        }
-
-    }
-
-    public static void mostrarLruta(ArrayList<Character> lRuta){
-        for (int i = 0; i < lRuta.size(); i++) {
-            System.out.println("Pos "+i+": "+lRuta.get(i));
-        }
     }
 }
