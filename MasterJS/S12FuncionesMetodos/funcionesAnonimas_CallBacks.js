@@ -13,6 +13,6 @@ function sumame(n1, n2) {
     return sumar;
 }
 
-console.log(sumame(4,5))
+console.log(sumame(4, 5))
 
 /* FALTA */
